@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portofolio</title>
+<meta name="description" content="Portofolio untuk lamaran magang">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="#home" id="brand"></a>
+    <nav aria-label="Menu utama">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#experience">Experience</a>
+      <a href="#skill">Skill</a>
+      <a href="#project">Project</a>
+      <a href="#certification">Certification</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <h1 id="nama"></h1>
+    <p class="role" id="role"></p>
+    <p class="typing" aria-live="off"><span id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+    <p class="bio" id="bio"></p>
+    <div class="cta">
+      <a class="btn primary" id="btn-github" target="_blank" rel="noopener">Lihat GitHub</a>
+      <a class="btn dark" href="cv.pdf" target="_blank" rel="noopener">Lihat CV</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <div class="photo" id="foto"></div>
+      <div id="about-text"></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ol class="timeline" id="exp-list"></ol>
+  </section>
+
+  <section id="skill">
+    <h2>Skill</h2>
+    <div class="skill-groups" id="skill-list"></div>
+  </section>
+
+  <section id="project">
+    <h2>Project</h2>
+    <div class="cards" id="proyek-list"></div>
+  </section>
+
+  <section id="certification">
+    <h2>Certification</h2>
+    <div class="certs" id="cert-list"></div>
+  </section>
+</main>
+
+<footer id="contact">
+  <h2>Contact</h2>
+  <p>Terbuka untuk magang. Hubungi aku lewat salah satu ini.</p>
+  <ul class="contacts" id="contact-list"></ul>
+  <p class="small" id="copy"></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
