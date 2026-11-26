@@ -3,7 +3,7 @@
 // ============================================================
 const CONFIG = {
   nama: "Miuvanida Klandistin",
-  role: "Mahasiswa S1 Teknik Informatika, Universitas Negeri Surabaya",
+  role: "Undergraduate Informatics Student, Universitas Negeri Surabaya",
   bio: "Curious mind, growing through technology.\nAn Informatics student passionate about exploring intelligent systems, visual computing, and turning ideas into thoughtful digital solutions.",
 
   // About Me
@@ -13,59 +13,59 @@ const CONFIG = {
     "During my internship, I hope to gain hands-on experience working on real projects, improve my technical and problem-solving skills, and learn from experienced mentors. I also want to understand how teams collaborate and how technology is developed in a professional environment."
   ],
   info: [
-    { label: "Kampus", isi: "Universitas Negeri Surabaya" },
-    { label: "Jurusan", isi: "S1 Teknik Informatika" },
-    { label: "Lokasi", isi: "Surabaya, Jawa Timur" }
+    { label: "University", isi: "Universitas Negeri Surabaya" },
+    { label: "Major", isi: "Informatics Engineering (Undergraduate)" },
+    { label: "Location", isi: "Surabaya, East Java, Indonesia" }
   ],
 
   // Experience
   pengalaman: [
     {
-      judul: "Staff Komisi 1",
-      tempat: "DPM FT Universitas Negeri Surabaya",
+      judul: "Commission 1 Staff Member",
+      tempat: "Faculty of Engineering Student Representative Council (DPM FT), Universitas Negeri Surabaya",
       waktu: "2024 - 2025",
       poin: [
-        "Menyusun dan mengevaluasi kebijakan kemahasiswaan.",
-        "Ikut studi komparatif dan berkoordinasi dengan pihak fakultas."
+        "Drafted and evaluated student affairs policies.",
+        "Took part in a comparative study visit and coordinated with the faculty."
       ]
     },
     {
-      judul: "Guru Taman Kanak-kanak dan Madrasah Diniyah",
+      judul: "Kindergarten and Madrasah Diniyah Teacher",
       tempat: "PAS Baitul Qur'an Ponorogo",
       waktu: "2023 - 2024",
       poin: [
-        "Menjalankan pembelajaran, evaluasi, dan administrasi akademik.",
-        "Berkolaborasi dengan orang tua dan tenaga pendidik untuk mendukung perkembangan siswa."
+        "Delivered lessons, assessments, and academic administration.",
+        "Worked with parents and fellow educators to support student development."
       ]
     },
     {
-      judul: "Sekretaris dan Bendahara",
+      judul: "Secretary and Treasurer",
       tempat: "PAS Baitul Qur'an Ponorogo",
       waktu: "2023 - 2024",
       poin: [
-        "Mengelola administrasi, dokumentasi, dan keuangan organisasi.",
-        "Menyusun pelaporan kegiatan agar operasional berjalan lancar."
+        "Managed administration, documentation, and organizational finances.",
+        "Prepared activity reports to keep operations running smoothly."
       ]
     },
     {
-      judul: "Kepala Divisi Pengembangan Keterampilan",
-      tempat: "PM Darussalam Gontor Ponorogo (kampus putri Kediri)",
+      judul: "Head of Skills Development Division",
+      tempat: "PM Darussalam Gontor Ponorogo (Kediri Women's Campus)",
       waktu: "2022 - 2023",
       poin: [
-        "Memimpin perencanaan dan pelaksanaan program pengembangan keterampilan.",
-        "Mengoordinasikan kegiatan pelatihan untuk mahasiswa."
+        "Led the planning and implementation of skills development programs.",
+        "Coordinated training activities for students."
       ]
     }
   ],
 
   // Skill
   skill: [
-    { grup: "Bahasa pemrograman", daftar: ["Python", "PHP", "SQL", "C++", "JavaScript", "Matlab"] },
-    { grup: "Framework & library", daftar: ["Laravel", "Tailwind CSS", "Bootstrap"] },
-    { grup: "AI & data", daftar: ["Machine Learning (dasar)", "Computer Vision", "Digital Image Processing", "Data Analysis"] },
-    { grup: "Database", daftar: ["MySQL", "Microsoft Access", "PowerDesigner"] },
+    { grup: "Programming languages", daftar: ["Python", "PHP", "SQL", "C++", "JavaScript", "Matlab"] },
+    { grup: "Frameworks & libraries", daftar: ["Laravel", "Tailwind CSS", "Bootstrap"] },
+    { grup: "AI & data", daftar: ["Machine Learning (basics)", "Computer Vision", "Digital Image Processing", "Data Analysis"] },
+    { grup: "Databases", daftar: ["MySQL", "Microsoft Access", "PowerDesigner"] },
     { grup: "Tools", daftar: ["Octave", "Matlab", "GitHub", "VS Code", "XAMPP", "RStudio", "Microsoft Excel"] },
-    { grup: "Soft skill", daftar: ["Analytical Thinking", "Problem Solving", "Research & Literature Review", "Team Collaboration", "Communication", "Time Management"] }
+    { grup: "Soft skills", daftar: ["Analytical Thinking", "Problem Solving", "Research & Literature Review", "Team Collaboration", "Communication", "Time Management"] }
   ],
 
   // Project. sumber: "github" atau "drive". Kalau link kosong, kartu tidak bisa diklik.
@@ -73,75 +73,75 @@ const CONFIG = {
   proyek: [
     {
       judul: "SafeBite Vision AI",
-      matkul: "Rekayasa Perangkat Lunak",
+      matkul: "Software Engineering",
       tahun: "2026",
-      deskripsi: "Aplikasi web yang mengekstrak teks label makanan dan menganalisis potensi risiko konsumsinya dengan AI, memakai Google Gemini API untuk OCR dan analisis risiko.",
+      deskripsi: "A web app that extracts text from food labels and analyzes potential consumption risks with AI, using the Google Gemini API for OCR and risk analysis.",
       teknologi: ["Next.js", "TypeScript", "FastAPI", "Python", "Gemini API"],
       sumber: "github",
-      link: "https://github.com/miuvanida/SafeBite"   
+      link: "https://github.com/miuvanida/SafeBite"
     },
     {
       judul: "SmartWaste AI",
-      matkul: "Metodologi Penelitian",
+      matkul: "Research Methodology",
       tahun: "2026",
-      deskripsi: "Rancangan sistem pemilahan sampah berbasis Computer Vision dan IoT, lengkap dengan proposal penelitian dan arsitektur sistem.",
+      deskripsi: "A waste sorting system design based on Computer Vision and IoT, complete with a research proposal and system architecture.",
       teknologi: ["Python", "YOLOv8", "Raspberry Pi", "ESP32", "Firebase"],
       sumber: "drive",
       link: ""   // isi link Drive (proposal)
     },
     {
-      judul: "Peningkatan Kualitas Citra",
-      matkul: "Pengolahan Citra Digital",
+      judul: "Image Quality Enhancement",
+      matkul: "Digital Image Processing",
       tahun: "2026",
-      deskripsi: "Menganalisis kombinasi Gaussian Filtering dan Histogram Equalization untuk meningkatkan kualitas citra digital, dievaluasi dengan MSE, PSNR, dan SSIM.",
+      deskripsi: "Analyzes the combination of Gaussian Filtering and Histogram Equalization to improve digital image quality, evaluated with MSE, PSNR, and SSIM.",
       teknologi: ["GNU Octave", "MATLAB"],
       sumber: "github",
       link: "https://github.com/miuvanida/Kombinasi-Gaussian-Filtering-dan-Histogram-Equalization-untuk-Peningkatan-Kualitas-Citra-Digital"
     },
     {
-      judul: "Penilaian Kinerja Karyawan dengan Fuzzy Logic",
-      matkul: "Kecerdasan Buatan",
+      judul: "Employee Performance Evaluation with Fuzzy Logic",
+      matkul: "Artificial Intelligence",
       tahun: "2025",
-      deskripsi: "Sistem pendukung keputusan penilaian kinerja dan rekomendasi reward dengan 27 aturan inferensi: fuzzifikasi, inferensi, defuzzifikasi, dan perhitungan bonus.",
+      deskripsi: "A decision support system for performance appraisal and reward recommendations using 27 inference rules: fuzzification, inference, defuzzification, and bonus calculation.",
       teknologi: ["Python", "Fuzzy Logic"],
       sumber: "github",
       link: "https://github.com/miuvanida/Sistem-penilaian-kinerja-dan-rewarding-karyawan-secara-transparan-menggunakan-metode-fuzzy-logic-"
     },
     {
       judul: "Skincare Tracker",
-      matkul: "Struktur Data",
+      matkul: "Data Structures",
       tahun: "2025",
-      deskripsi: "Aplikasi manajemen skincare dengan fitur rekomendasi produk, pengecekan konflik bahan aktif, dan pengelolaan jadwal.",
-      teknologi: ["C++", "Struktur Data", "Algoritma"],
+      deskripsi: "A skincare management app with product recommendations, active ingredient conflict checking, and routine scheduling.",
+      teknologi: ["C++", "Data Structures", "Algorithms"],
       sumber: "github",
       link: "https://github.com/miuvanida/skincare-tracker"
     },
     {
       judul: "Health Cafe",
-      matkul: "Kewirausahaan",
+      matkul: "Entrepreneurship",
       tahun: "2026",
-      deskripsi: "Aplikasi web sistem rekomendasi menu dengan antarmuka responsif.",
+      deskripsi: "A web app with a menu recommendation system and a responsive interface.",
       teknologi: ["Laravel", "PHP", "MySQL", "Tailwind CSS"],
-      sumber: "drive",
-      link: "https://github.com/miuvanida/HealthCafe-E-Commerce" 
+      sumber: "github",
+      link: "https://github.com/miuvanida/HealthCafe-E-Commerce"
     },
     {
       judul: "Outdoor Equipment Rental",
-      matkul: "Pemrograman Berbasis Platform",
+      matkul: "Platform-Based Programming",
       tahun: "2026",
-      deskripsi: "Website penyewaan peralatan outdoor dengan fitur autentikasi, katalog, dan pemesanan.",
+      deskripsi: "An outdoor equipment rental website with authentication, a product catalog, and booking features.",
       teknologi: ["Laravel", "PHP", "MySQL", "JavaScript"],
-      sumber: "drive",
-      link: "https://github.com/miuvanida/Goutside"  
+      sumber: "github",
+      link: "https://github.com/miuvanida/Goutside"
     },
     {
       judul: "Tom's Hunt",
-      matkul: "Pemrograman Berorientasi Objek",
+      matkul: "Object-Oriented Programming",
       tahun: "2025",
-      deskripsi: "Game 2D dengan konsep OOP, lengkap dengan mekanisme permainan, collision detection, dan timer.",
+      deskripsi: "A 2D game built with OOP concepts, featuring game mechanics, collision detection, and a timer.",
       teknologi: ["Python", "Pygame"],
       sumber: "drive",
-      link: ""   
+      link: ""
     }
   ],
 
@@ -158,17 +158,19 @@ const CONFIG = {
     { nama: "Samsung Innovation Campus Batch 7 - Stage 1: Code Kickstart (Python Programming)", penerbit: "Samsung Innovation Campus", tahun: "2025" },
     { nama: "Samsung Innovation Campus Batch 7 - Stage 2: IoT (Device and Hardware Discovery)", penerbit: "Samsung Innovation Campus", tahun: "2025" },
     { nama: "Python Programming with Red Hat (AD141 - RHA Ver. 9.0)", penerbit: "Red Hat", tahun: "2025" },
-    { nama: "Winning Every Scholarship Strategis Course", penerbit: "SmartPath", tahun: "2026" },
-    { nama: "Pelatihan Legislatif Fakultas Teknik (Panitia)", penerbit: "Universitas Negeri Surabaya", tahun: "2025" },
-    { nama: "Pelatihan Legislatif Fakultas Teknik (Peserta)", penerbit: "Universitas Negeri Surabaya", tahun: "2024" },
-    { nama: "LKMM Pra-TD", penerbit: "Universitas Negeri Surabaya", tahun: "2024" }
+    { nama: "Winning Every Scholarship Strategic Course", penerbit: "SmartPath", tahun: "2026" },
+    { nama: "Faculty of Engineering Legislative Training (Committee Member)", penerbit: "Universitas Negeri Surabaya", tahun: "2025" },
+    { nama: "Faculty of Engineering Legislative Training (Participant)", penerbit: "Universitas Negeri Surabaya", tahun: "2024" },
+    { nama: "LKMM Pra-TD (Student Management Skills Training)", penerbit: "Universitas Negeri Surabaya", tahun: "2024" }
   ],
 
   // Contact (kosongkan kalau tidak ada)
   email: "miuvanidak@gmail.com",
+  whatsapp: "6282336523214",   // format internasional tanpa + dan tanpa 0 di depan (082336523214 jadi 6282336523214)
   linkedin: "https://www.linkedin.com/in/miuvanida-klandistin/",
   instagram: "https://www.instagram.com/miuvanidak"
 };
+
 // ============================================================
 
 const $ = (id) => document.getElementById(id);
@@ -180,7 +182,7 @@ function el(tag, cls, text) {
 }
 
 // Home
-document.title = CONFIG.nama + " | Portofolio";
+document.title = CONFIG.nama + " | Portfolio";
 $("brand").textContent = CONFIG.nama;
 $("nama").textContent = CONFIG.nama;
 $("role").textContent = CONFIG.role;
@@ -191,7 +193,7 @@ $("copy").textContent = "© " + new Date().getFullYear() + " " + CONFIG.nama;
 // About Me
 if (CONFIG.foto) {
   const img = document.createElement("img");
-  img.src = CONFIG.foto; img.alt = "Foto " + CONFIG.nama;
+  img.src = CONFIG.foto; img.alt = "Photo of " + CONFIG.nama;
   $("foto").appendChild(img);
 } else {
   $("foto").textContent = CONFIG.nama.split(" ").map((k) => k[0]).slice(0, 2).join("").toUpperCase();
@@ -218,7 +220,7 @@ $("about-text").appendChild(ri);
 // Experience
 CONFIG.pengalaman.forEach((p) => {
   const li = el("li");
-  li.appendChild(el("h3", "", p.judul + " di " + p.tempat));
+  li.appendChild(el("h3", "", p.judul + " at " + p.tempat));
   li.appendChild(el("div", "when", p.waktu));
   const ul = el("ul");
   p.poin.forEach((x) => ul.appendChild(el("li", "", x)));
@@ -251,7 +253,7 @@ CONFIG.proyek.forEach((p) => {
   p.teknologi.forEach((t) => tags.appendChild(el("li", "", t)));
   body.appendChild(tags);
   if (p.link) {
-    body.appendChild(el("div", "go", (p.sumber === "github" ? "Buka di GitHub" : "Buka di Drive") + " →"));
+    body.appendChild(el("div", "go", (p.sumber === "github" ? "View on GitHub" : "View on Drive") + " →"));
   }
   box.appendChild(body);
   $("proyek-list").appendChild(box);
@@ -268,6 +270,7 @@ CONFIG.sertifikasi.forEach((c) => {
 // Contact
 [
   ["Email", CONFIG.email ? "mailto:" + CONFIG.email : ""],
+  ["WhatsApp", CONFIG.whatsapp ? "https://wa.me/" + CONFIG.whatsapp : ""],
   ["LinkedIn", CONFIG.linkedin],
   ["Instagram", CONFIG.instagram],
   ["GitHub", "https://github.com/" + CONFIG.githubUsername]
