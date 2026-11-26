@@ -166,7 +166,6 @@ const CONFIG = {
 
   // Contact (kosongkan kalau tidak ada)
   email: "miuvanidak@gmail.com",
-  whatsapp: "6282336523214",   // format internasional tanpa + dan tanpa 0 di depan (082336523214 jadi 6282336523214)
   linkedin: "https://www.linkedin.com/in/miuvanida-klandistin/",
   instagram: "https://www.instagram.com/miuvanidak"
 };
@@ -270,7 +269,6 @@ CONFIG.sertifikasi.forEach((c) => {
 // Contact
 [
   ["Email", CONFIG.email ? "mailto:" + CONFIG.email : ""],
-  ["WhatsApp", CONFIG.whatsapp ? "https://wa.me/" + CONFIG.whatsapp : ""],
   ["LinkedIn", CONFIG.linkedin],
   ["Instagram", CONFIG.instagram],
   ["GitHub", "https://github.com/" + CONFIG.githubUsername]
